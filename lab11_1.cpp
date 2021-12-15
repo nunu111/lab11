@@ -9,7 +9,7 @@ int main(){
 	string grade;
 	do
 	{
-		cout << "Student [" << student << "]:";
+		cout << "Student [" << student << "]: ";
 		cin >> grade; //The loop must be terminated when grade = '0'
 		if(grade == "A") 
 		{

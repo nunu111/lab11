@@ -10,12 +10,12 @@ int main (){
 	dest.open("cheerbook_copy.txt");
 	
 	string text;
-	dest << "\"-------------------- BOOM ---------------------\""<< endl;
+	dest << "-------------------- BOOM ---------------------"<< endl;
 	while (getline(source, text))
 	{
 		dest << text <<endl;
 	}
-	dest << "\"-------------------- HA!! ---------------------\"";
+	dest << "-------------------- HA!! ---------------------";
 	
 
     source.close();
